@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    overflow: auto;
+    padding: 33px 7rem;
+    position: fixed; 
+    width: 100%;
+}
+.logo{
+    width: 14.5%;
+    float:left;
+}
+.nav{
+    float: right;
+    margin-top: 3px;
+}
+.nav a{
+    color: white;
+    margin-left: 2rem;
+}
+.welcome{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 15.3rem;
+    overflow: auto;
+
+}
+.welcome p{
+    font-style: italic;
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+}
+.welcome h1{
+    font-size: 4.5rem;
+    margin-bottom: 4rem;
+}
+.welcome a{
+    color: white;
+    font-weight: bold;
+    background-color: #FFC800;
+    width: 15%;
+    margin: 0 auto;
+    padding: 23px 40px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.services{
+    text-align: center;
+    padding: 5rem 0;
+}
+.services h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.items{
+    overflow:auto;
+    width: 80%;
+    margin: 0 auto;
+}
+.item{
+    width: 30%;
+    margin-left: 1rem;
+    float: left;
+}
+.item i {
+    font-size: 3.5rem;
+    color:white;
+    background-color: #FFC800;
+    padding-top: 1.5rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.item h3{
+    font-weight: 700;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+.services p.service-text{
+    font-style: italic;
+    font-size: 1rem;
+    color: #6c757d ; 
+    margin-bottom: 3rem;
+}
+.item p.bottom-text{
+    font-size: 1rem;
+    color: #6c757d ; 
+    margin: 1rem auto 0;
+    font-weight: 500;
+}
+.portfolio{
+    background-color: #F8F9FA;
+    overflow: auto;
+    padding: 4rem 0;
+}
+.portfolio h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.portfolio p.head-text{
+    text-align: center;
+    padding: 1rem 0 2.5rem;
+    
+}
+.portfolio p{
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: italic;
+    color: #6c757d;
+}
+.prt-items{
+    width: 80%;
+    margin: 0 auto;
+}
+.prt-item{
+    float: left;
+    width: 30%;
+    text-align:center;
+    margin:1.5rem 0 0 2rem;
+    background-color: white;
+}
+.prt-img img{
+    width: 100%;
+    vertical-align: bottom;
+}
+.prt-text h3{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+.prt-text p{
+    margin-bottom: 2rem;
+}
